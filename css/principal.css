@@ -1,0 +1,122 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg width='12' height='24' viewBox='0 0 12 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23dad6e0' fill-opacity='0.11'%3E%3Cpath d='M2 0h2v12H2V0zm1 20c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM9 8c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-1 4h2v12H8V12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.contenedor{
+    width: 80%;
+    margin: auto;
+}
+
+.contenedor_titulo{
+    font-size: 24px;
+    color: #63707E;
+    text-align: center;
+}
+
+.contenedor_banner{
+    display: grid;
+    grid-template-columns: 2fr 1fr; /*12 columnas: 8 columnas , 4 columnas*/
+    background: rgb(246, 241, 241);
+    margin-bottom: 30px;
+}
+
+.contenedor_descripcion{
+    font-size: 30px;
+    color: #63707E;
+    margin-top: 30%;
+}
+
+.contenedor_banner a{
+    padding: 15px;
+    background: #06BC9B;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.contenedor_items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /*12 columnas: 4columnas 4columnas 4columnas*/
+    column-gap: 20px;
+}
+
+.item_titulo{
+    font-size: 20px;
+    color: #06BC9B;
+    text-align: center;
+}
+
+.item_descripcion{
+    font-size: 15px;
+    color: #525D68;
+    text-align: center;
+}
+
+.contenedor_item{
+    background: rgb(246, 241, 241);
+    padding: 20px 10px;
+}
+
+.contenedor_item img{
+    width: 40%;
+    height: auto;
+    margin-left: 30%;
+}
+
+
+footer{
+    background: #525D68;
+    margin-top: 30px;
+}
+
+.footer{
+    background: #2f363d;
+    width: 80%;
+    margin: auto;
+}
+
+
+.footer_autor{
+    color: rgb(241, 236, 236);
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.footer_redes{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer_redes i{
+    margin-right: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+}
+
+.fb{
+    background: #3664A2;
+}
+
+.tw{
+    background: #55ACEE;
+}
+
+.gm{
+    background: #DD4B39;
+}
+
+.ln{
+    background: #0077B5;
+}
+
+.fb:hover, .tw:hover, .gm:hover, .ln:hover{
+    background: #06BC9B;
+    cursor: pointer;
+}
